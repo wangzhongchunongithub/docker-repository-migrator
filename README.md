@@ -1,10 +1,9 @@
 # docker-repository-migrator
-The program help us to migrate repositories from one docker registry to another one
-It will iterate all repositories and images existing on source registry,  
-and then push them to target registry  
-version of source registry can be set as 'v1' or 'v2',target registry should be a 'v2' docker registry
+The program help us to migrate repositories from one docker registry to another one.  
+It will iterate all repositories and images existing on source registry,  and then push them to target registry.  
+version of source registry can be set as 'v1' or 'v2',target registry should be a 'v2' docker registry.  
 
-How to use  
+How to use.  
 step 0: 
 ```shell
 git clone https://github.com/wangzhongchunongithub/docker-repository-migrator 
@@ -14,7 +13,7 @@ step 1:
 pip install requirements.txt  
 ```
 
-step 2: edit vars.json and overwrite 'registry_uri', 'registry_version', 'user', and 'password' of your own docker repositories 
+step 2: edit vars.json and overwrite 'registry_uri', 'registry_version', 'user', and 'password' of your own docker repositories. 
 
 step 3: 
 ```shell
