@@ -1,0 +1,17 @@
+{
+    "original_registry": {
+        "type": "docker",
+        "scheme": "http",
+        "registry_uri": "192.168.158.128:8085",
+        "registry_version": "v2",
+        "user": "admin",
+        "password": "admin123"
+    },
+    "target_registry": {
+        "type": "docker",
+        "scheme": "http",
+        "registry_uri": "192.168.158.128:8086",
+        "user": "admin",
+        "password": "admin123"
+    }
+}
