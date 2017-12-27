@@ -20,7 +20,7 @@ step 3:
 python docker-repository-migrator.py -c 'vars.json'  
 ```
 
-##########################
+Output Sample:  
 ```python
 2 images will be migrated.  
 Pulling image: 192.168.158.128:8085/docker-hello-world:1.0  (1/2)  
