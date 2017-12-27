@@ -6,14 +6,14 @@ and then push them to target registry
 How to use  
 step 0: 
 ```shell
-git clone the project 
+git clone https://github.com/wangzhongchunongithub/docker-repository-migrator 
 ```
 step 1: 
 ```shell
 pip install requirements.txt  
 ```
 
-step 2: edit vars.json and overwrite 'registry_uri', 'user', and 'password' of docker repositories 
+step 2: edit vars.json and overwrite 'registry_uri', 'user', and 'password' of your own docker repositories 
 
 step 3: 
 ```shell
