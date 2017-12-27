@@ -27,4 +27,5 @@ Pulling image: 192.168.158.128:8085/docker-hello-world:1.0  (1/2)
 Tag image: 192.168.158.128:8085/docker-hello-world:1.0 -> 192.168.158.128:8086/docker-hello-world:1.0  (1/2)  
 Migrating image: 192.168.158.128:8085/docker-hello-world:1.0  (1/2)  
 Successfully migrated image: 192.168.158.128:8085/docker-hello-world:1.0  (1/2)   
+...............
 ```
