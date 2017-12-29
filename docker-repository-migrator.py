@@ -100,7 +100,7 @@ class DockerRegistry(Registry):
 
         return images
 
-class RegistryCreator():
+class RegistryFactory():
     def __init__(self):
         pass
 
@@ -174,8 +174,8 @@ class DockerHelper():
 
 class RepositoryMigrator():
     def __init__(self, original_registry_info, target_registry_info):
-        self.original_registry = RegistryCreator.generate(True, original_registry_info)
-        self.target_registry = RegistryCreator.generate(False, target_registry_info)
+        self.original_registry = RegistryFactory.generate(True, original_registry_info)
+        self.target_registry = RegistryFactory.generate(False, target_registry_info)
 
     def migrate(self, original_images):
         target_image = None
